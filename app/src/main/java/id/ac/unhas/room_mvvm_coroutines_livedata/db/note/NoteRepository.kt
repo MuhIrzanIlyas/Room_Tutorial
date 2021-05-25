@@ -1,7 +1,10 @@
-package id.ac.unhas.room_mvvm_coroutines_livedata
+package id.ac.unhas.room_mvvm_coroutines_livedata.db.note
 
 import android.app.Application
 import androidx.lifecycle.LiveData
+import id.ac.unhas.room_mvvm_coroutines_livedata.db.AppDatabase
+import id.ac.unhas.room_mvvm_coroutines_livedata.db.note.Note
+import id.ac.unhas.room_mvvm_coroutines_livedata.db.note.NoteDao
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking

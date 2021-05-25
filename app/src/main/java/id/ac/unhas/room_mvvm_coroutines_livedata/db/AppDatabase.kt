@@ -1,10 +1,11 @@
-package id.ac.unhas.room_mvvm_coroutines_livedata
+package id.ac.unhas.room_mvvm_coroutines_livedata.db
 
 import android.content.Context
 import android.provider.ContactsContract
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import id.ac.unhas.room_mvvm_coroutines_livedata.db.note.NoteDao
 
 @Database(entities = [ContactsContract.CommonDataKinds.Note::class], exportSchema = false, version = 1)
 abstract class AppDatabase : RoomDatabase() {

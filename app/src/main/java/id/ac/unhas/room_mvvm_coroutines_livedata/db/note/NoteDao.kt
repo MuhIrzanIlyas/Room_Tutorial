@@ -1,7 +1,8 @@
-package id.ac.unhas.room_mvvm_coroutines_livedata
+package id.ac.unhas.room_mvvm_coroutines_livedata.db.note
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
+import id.ac.unhas.room_mvvm_coroutines_livedata.db.note.Note
 
 @Dao
 interface NoteDao {
